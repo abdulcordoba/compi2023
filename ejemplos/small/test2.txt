@@ -1,0 +1,8 @@
+bool a;
+
+a = false;
+a = !a;
+
+if(a) {
+    print ("Hola mundo");
+}

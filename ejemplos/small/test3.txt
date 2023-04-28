@@ -1,0 +1,28 @@
+int x = 6, y, z;
+bool a, b, c;
+
+x = 1;
+y = x + (4 + 4 );
+z = x + y;
+
+a = false;
+b = true;
+c = !a && b;
+
+print("hola mundo!");
+
+if (!a) {
+    x = 5;
+    y = 10;
+    print("Dentro del if, a es falso");
+    print(x + y == 10 + z);
+    print(x+x+x+x+x+x);
+}
+
+if(a) {
+        print("en el if, a es verdadero");
+}
+
+if(b) {
+        print(1111 + 2222 + 3333 + 444);
+}
